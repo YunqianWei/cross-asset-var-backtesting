@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+*.key
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files - keep folders but ignore contents
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Large or generated files
+*.csv
+*.xlsx
+*.parquet
+*.pkl
+*.joblib
+*.sqlite
+*.db
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+# Word documents
+*.docx
